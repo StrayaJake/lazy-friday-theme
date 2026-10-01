@@ -7,6 +7,7 @@ It is a modified version of [BeardedTheme](https://github.com/BeardedBear/bearde
 - **Accent:** Themanopia's purple accent is replaced with orange `#ff8c42` (cursor, badges, active tab and links). Selections and highlights behind code are neutral grey.
 - **Surfaces:** the navy-tinted backgrounds are now neutral dark greys at the same lightness. The editor background is `#222222`.
 - **Syntax:** keywords and operators are orange. Constants and numbers are a lighter orange, and parameters are soft yellow. Variables and properties, which make up most of the code, are a warm off-white `#d6d0c4`. Every other Themanopia colour is a softer, less saturated version of the original.
+- **Git Graph:** the theme sets a default for `git-graph.graph.colours`, so branch lines use the same colours as the Source Control graph, with light orange first. It is only a default: a value in your own settings wins, and it stays in effect while another theme is active.
 
 ## Install on any machine
 

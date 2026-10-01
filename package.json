@@ -1,0 +1,27 @@
+{
+  "name": "lazy-friday-theme",
+  "displayName": "Lazy Friday",
+  "description": "A dark-grey VS Code theme in Lazy Friday Studio orange, built on the BeardedTheme Themanopia palette.",
+  "version": "0.1.5",
+  "publisher": "lazyfridaystudio",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StrayaJake/lazy-friday-theme"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lazy Friday",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lazy-friday-color-theme.json"
+      }
+    ]
+  }
+}
